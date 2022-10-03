@@ -19,10 +19,11 @@ h1 {
 }
 
 img {
-  width: 100%;
-  border-radius: 0.625rem;
-  max-height: 20rem;
-  max-width: 20rem;
+
+      display: block;
+      object-fit: cover;
+      max-width: 100%;
+      border-radius: 0.625rem;
 }
 
 p {
@@ -42,11 +43,11 @@ p {
   color: hsla(228, 45%, 44%);
 }
 
-.parent {
+main {
   background-color: hsl(0, 0%, 100%);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
   border-radius: 0.625rem;
   max-width: 17rem;
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin: 20px;
 }
